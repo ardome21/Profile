@@ -15,6 +15,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { NavpanelComponent } from './navpanel/navpanel.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     SignUpComponent,
     ProjectsComponent,
     NavpanelComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    FooterComponent
     ],
   imports: [
     BrowserModule,
