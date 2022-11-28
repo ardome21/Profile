@@ -1,6 +1,12 @@
-.footer {
-    position: absolute;
+.header{
+    position: sticky;
     margin: 0;
-    bottom: 0;
+    top: 0;
+    width: 100%;
+}
+.footer {
+    position: fixed;
+    margin: 0px;
+    bottom: -12px;
     width: 100%;
 }
