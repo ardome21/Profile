@@ -1,8 +1,7 @@
 <mat-toolbar color="primary" class="mat-elevation-z5">
-    <mat-icon>extension</mat-icon>
-    <span>Toni's Website</span>
+    <a href="/home"><mat-icon style="color:rgb(245, 137, 5)">extension</mat-icon></a>
+    <div class="padding"></div>
+   <a style="color: rgb(250, 250, 250); text-decoration: none;"href="/home"><span>Toni's Website</span></a>
     <div class="spacer"></div>
-    <a mat-raised-button color="primary" routerLink="home">Home</a>
-    <a mat-raised-button color="primary" routerLink="projects">Projects</a>
-    <a mat-raised-button color="primary" routerLink="signUp">Sign Up</a>
+    <app-navpanel></app-navpanel>
 </mat-toolbar>

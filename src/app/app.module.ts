@@ -13,6 +13,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { NavpanelComponent } from './navpanel/navpanel.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +22,10 @@ import { ProjectsComponent } from './projects/projects.component';
     NavbarComponent,
     HomeComponent,
     SignUpComponent,
-    ProjectsComponent
-  ],
+    ProjectsComponent,
+    NavpanelComponent,
+    PageNotFoundComponent
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
