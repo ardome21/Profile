@@ -1,7 +1,7 @@
 .center {
-    flex: 1 1 auto;
+    flex: 1 auto;
+    margin-top: .5em;
     text-align: center;
-    vertical-align: auto;
 }
 .padding {
     padding-right: 0.25rem;
